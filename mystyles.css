@@ -72,6 +72,15 @@ background: url("sunnywalking.jpg") no-repeat center center fixed;
 -o-background-size: cover;
 background-size: cover;
 }
+
+.projects-bg {
+background: url("twosunnies.jpg") no-repeat center center fixed;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 .gallery-bg {
 background: url("sunface1.jpg") no-repeat center center fixed;
 
