@@ -56,7 +56,7 @@ body.aboutc {
 }
 */
 .about-bg {
-background: url("pajaro.png") no-repeat center center fixed;
+background: url("templates/pajaro.png") no-repeat center center fixed;
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -65,7 +65,7 @@ background-size: cover;
 
 }
 .contact-bg {
-background: url("sunnywalking.jpg") no-repeat center center fixed;
+background: url("templates/sunnywalking.jpg") no-repeat center center fixed;
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -74,7 +74,7 @@ background-size: cover;
 }
 
 .projects-bg {
-background: url("twosunnies.jpg") no-repeat center center fixed;
+background: url("templates/twosunnies.jpg") no-repeat center center fixed;
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -82,7 +82,7 @@ background: url("twosunnies.jpg") no-repeat center center fixed;
 background-size: cover;
 }
 .gallery-bg {
-background: url("sunface1.jpg") no-repeat center center fixed;
+background: url("templates/sunface1.jpg") no-repeat center center fixed;
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -217,7 +217,7 @@ div.desc {
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-*/ /*MUST ADD TO THE ABOUT ME PAGE
+*/ /* TODO: MUST ADD TO THE ABOUT ME PAGE
 /*******************/
 .sidenav {
   height: 100%;
