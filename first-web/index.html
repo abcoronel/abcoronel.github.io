@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset = "UTF-8">
+   <title>Home Page</title>
+   <link rel = "stylesheet" type = "text/css" href = "mystyles.css" />
+
+
+
+</head>
+<body>
+
+  <!--<button type="button" About Me. </button>
+  <button type="button" Contact Me. </button>
+  <button class="button"> 8px </button>
+  <button class="button"> 80px </button>-->
+
+  <!--<button style="position: relative; width: 50%;
+  bottom: 5px;
+  border: 3px solid #8AC007;
+  color: black;
+  background-color: white;">Default Button</button>-->
+
+
+<!--
+<div class="sidenav">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>-->
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="AboutMe.html">About</a>
+  <a href="ContactMe.html">Contact</a>
+  <a href="MyProjects.html">Projects</a>
+  <a href="Gallery.html">Gallery</a>
+</div>
+
+<span style="font-size:100px;cursor:pointer; color: #8AC007; position: absolute; top: 0; left: 0;" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<div class="main">
+  <div class="typewriter">
+  <h1>Hello Beautiful World...</h1>
+
+</body>
+</html>
